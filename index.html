@@ -1,0 +1,59 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+
+    <title>Trivia Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="./css/style.css" rel="stylesheet" type="text/css">
+    <link href="javascript/app.js" type="text/javascript">
+</head>
+
+<body>
+    <div class="container">
+        <div id="title">
+            <h1>Geography Trivia</h1>
+        </div>
+        <button id="btn-start" class="btn btn-info btn-lg">Start</button>
+
+        <div id="timer">
+            <p> Remaining Time: <span id='totalTime'>30</span></p>
+        </div>
+
+        <form id="trivia ">
+            <p> What country has the most natural lakes?</p>
+            <input type="radio" id="question" name="question1" value="Canada"> Canada
+            <input type="radio" id="question" name="question1" value="Australia"> Australia
+            <input type="radio" id="question" name="question1" value="India"> India
+            <input type="radio" id="question" name="question1" value="United States"> United States
+
+            <p> In what country can you visit Machu Pichu?</p>
+            <input type="radio" id="question" name="question2" value="Ecuador"> Ecuador
+            <input type="radio" id="question" name="question2" value="Nepal"> Nepal
+            <input type="radio" id="question" name="question2" value="Peru"> Peru
+            <input type="radio" id="question" name="question2" value="Egypt"> Egypt
+
+            <p> What is the oldest city in the world?</p>
+            <input type="radio" id="question" name="question3" value="Jerusalem"> Jerusalem
+            <input type="radio" id="question" name="question3" value="Athens"> Athens
+            <input type="radio" id="question" name="question3" value="Madrid"> Madrid
+            <input type="radio" id="question" name="question3" value="Damascus"> Damascus
+        </form>
+            <button id="submit" type="button" class="btn btn-primary">Submit</button>
+            <div id="afterSubmit">
+                <p id="Number Correct">Results</p>
+            </div>
+     
+
+
+    </div>
+
+
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./javascript/app.js"></script>
+</body>
+
+</html>

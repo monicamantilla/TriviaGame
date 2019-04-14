@@ -1,0 +1,30 @@
+.container{
+    max-width: 960px;
+    margin:45px;
+    height: 600px;
+    clear: both; 
+    padding: 10px;
+    background-color: pink;
+}
+
+#title{
+    text-align: center;
+    color: white;
+}
+
+button{
+    display:block;
+    width:50%;
+    height:20%;
+    margin: 0 auto;
+  
+}
+
+#timer{
+    text-align: center;
+}
+
+#afterSubmit{
+    visibility: hidden;
+
+}
